@@ -1,0 +1,81 @@
+
+:root{
+	--color-text: #4b4a4a  !important;
+  }
+.custom-faq{
+	padding-bottom: 120px;
+	
+ }
+ .custom-faq-img {
+	 padding-bottom: 10px !important;
+ }
+ .card-faq,.card-header{
+	 background-color: transparent !important;
+	 text-align: center;
+	 border: none !important;
+	 padding: 0 !important;
+	 /* margin-bottom: 20px; */
+ }
+ 
+ .card-faq{
+	margin-bottom: 20px !important;
+	 width: 80%;
+	 box-shadow: 0 2px 20px 0 rgba(195, 204, 246, 0.3) !important ;
+	 margin: auto;
+ }
+ 
+ .btn-link{
+	 width: 100%;
+	 height: auto;
+	 padding-top: 10px !important;
+	 padding-bottom: 15px !important;
+	 font-weight: bold !important;
+	 text-decoration: none !important;
+	 color: #125b9f !important;
+	font-size: 15pt !important;
+ }
+ .card-body{
+	 background:rgba(195, 204, 246, 0.3) !important;
+ }
+ .btn-link:after{
+	 content: '\2212';
+	 width: 35px;
+	 font-size: 25px;
+	 text-align: center;
+	 border-radius: 5px;
+	 right: 15px;
+	 top: 11px;
+	 position: absolute;
+	 background: rgba(195, 204, 246, 0.3);
+ }
+ .btn-link,.collapsed:after{
+	 content: '\002B';
+ }
+ .btn-link:before{
+	 content: '';
+	 z-index: 1;
+ }
+
+
+ @media (max-width:600px){
+	 .btn-link{
+		height: auto;
+		padding-bottom: 25px !important;
+	}
+
+}
+ 
+@media screen and (max-width: 992px) {
+	.btn-link{
+		font-size: 12pt !important;
+		text-align: justify;
+		padding-right: 50px !important;
+
+	}
+	.btn-link:before{
+		background:transparent;
+	
+	}
+
+
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bem Cassi</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/card.css">
+  <!-- Favicon and touch icons -->
+  <link href="assets/icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon" sizes="48x48" />
+  <link href="assets/icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed" />
+  <link href="assets/icon/favicon.png" rel="shortcut icon" />
+  <!-- BootstrapCDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+  <!-- Inicio Função Google Analitycs -->
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker("UA-8958793-1");
+      pageTracker._trackPageview();
+    } catch (err) { }
+  </script>
+  <!-- Fim Função Google Analitycs -->
+  <script>
+    /** Inicio Função Google Analitycs para links externos
+    * Função que acompanha um clique em um link externo no Google Analytics.
+    * Essa função processa uma string de URL válida como um argumento e usa essa string de URL
+    * como o rótulo do evento.
+    */
+    var trackOutboundLink = function (url) {
+      ga('send', 'event', 'outbound', 'click', url, {
+        'hitCallback':
+          function () {
+            document.location = url;
+          }
+      });
+    }
+    function MM_swapImgRestore() { //v3.0
+      var i, x, a = document.MM_sr; for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+    }
+    function MM_preloadImages() { //v3.0
+      var d = document; if (d.images) {
+        if (!d.MM_p) d.MM_p = new Array();
+        var i, j = d.MM_p.length, a = MM_preloadImages.arguments; for (i = 0; i < a.length; i++)
+          if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; }
+      }
+    }
+
+    function MM_findObj(n, d) { //v4.01
+      var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+        d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+      }
+      if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+      for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+      if (!x && d.getElementById) x = d.getElementById(n); return x;
+    }
+
+    function MM_swapImage() { //v3.0
+      var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array; for (i = 0; i < (a.length - 2); i += 3)
+        if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; }
+    }
+  </script>
+  <!-- Fim Função Google Analitycs para links externos -->
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="container container-reveso">
+    <a href="index.htm">
+      <img src="assets/cabecalho/logo.png" class="topo-banner">
+    </a>
+
+    <!-- <nav class=" navbar navbar-expand-md navbar-light static-top mb-5">
+      <div class="container justify-content-center" id="logo-main">
+        <a href="index.htm" class="navbar-brand ">
+          <img src="assets/cabecalho/logo.png" width="110%">
+        </a>
+      </div> -->
+    </nav>
+    <div>
+      <div class="container ">
+        <br>
+        <nav class="navbar navbar-expand-md navbar-light custom-nav justify-content-md-center">
+          <ul class="navbar-nav justify-content-md-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.htm">O QUE É?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comoFunciona.htm">COMO FUNCIONA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rede.htm">NOSSA REDE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="duvidas.htm">TIRE SUAS DÚVIDAS</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+    <path d="M0,100 C150,180 300,60 500,120 L500,00 L0,0 Z" style="stroke:none; fill: #e0efe3"></path>
+  </svg> -->
+        <div class="cabecalho">
+          <h1 class="titulo-principal text-rigth">O que é?</h1>
+          <hr>
+        </div>
+        <p class="text-justify">
+          O Bem CASSI é um serviço da Caixa de Assistência que tem o objetivo de oferecer aos participantes cuidado
+          integral. Ainda na fase piloto, os contemplados serão 17 mil participantes de Curitiba e região metropolitana
+          (PR).
+        </p>
+        <p class="text-justify">
+          Além da CliniCASSI, outras duas clínicas foram escolhidas para auxiliar na expansão da Atenção Primária à
+          Saúde (APS). Juntas, elas são porta de entrada e podem dar toda a assistência, oferecendo acolhimento e
+          atendimento customizados (realizados por equipes multidisciplinares), baseados nas necessidades específicas de
+          saúde de cada participante.
+        </p>
+        <p class="text-justify">
+        <h4>O que vem por aí?</h4>
+        </p>
+        <p class="text-justify">
+          Em breve o Bem Cassi também contará com a opção de atendimento remoto (áudio e vídeo) pela equipe de Atenção
+          Primária à qual estiver vinculada, no horário comercial (seja CliniCASSI, Tempo ou Bem Viver), ou com equipes
+          de plantão no serviço 24h, acessível 7 dias por semana.
+        </p>
+        <br>
+        <div class="iframe-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7p4CkBM8C-M" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="rodape">
+      <div>
+        <div class="footer-custom">
+          <div class="text-center">
+            <a href="https://www.cassi.com.br/" target="blank"><img src="assets/icon/logo-rodape.png"
+                class="logo-rodape"></a>
+            <div class="rede-social">
+              <p class="social">&nbsp;&nbsp; Siga a CASSI nas redes sociais</p>
+              <div class="icone-social">
+                <a href="https://www.facebook.com/CASSIBR" target="blank"><img
+                    src="assets/icon/facebook-brands.png"></a>
+                <a href="https://www.instagram.com/cassi.saude/" target="blank"><img
+                    src="assets/icon/instagram-brands.png"></a>
+                <a href="http://www.youtube.com/channel/UCGgWja05AGSTAm9WFRFD0aQ" target="blank"><img
+                    src="assets/icon/youtube-brands.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
