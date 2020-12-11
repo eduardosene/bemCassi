@@ -5,4 +5,3 @@ Este projeto é um simples hotsite criado com o objetivo de divulga a campanha B
 * Bootstrap
 * HTML
 * CSS
-* JS
